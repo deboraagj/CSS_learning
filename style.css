@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 1.5;
+}
+
+/* CABEÇALHO */
+
+header{
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-photo{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    background-image: url('imagem.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-title{
+    margin-bottom: 10px;
+    font-size: 34px;
+    color:aliceblue;
+}
+
+.subtitle{
+    font-size: 18px;
+    color:aliceblue;
+}
+
+/* MENU DE NAVEGAÇÃO*/
+
+.main-nav{
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color:aquamarine;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    
+}
+
+.main-nav a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s;
+    transition: font-size 0.3s;
+}
+
+.main-nav a:hover{
+    color: brown;
+    font-size: 20px;
+}
