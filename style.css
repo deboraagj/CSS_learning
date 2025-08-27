@@ -68,3 +68,123 @@ header{
     color: brown;
     font-size: 20px;
 }
+
+/* SEÇÕES - INTRODUÇÃO AO CSS */
+
+.section{
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 4%;
+    box-shadow: 0 0 5px white;
+}
+
+#sec-intro ul li{
+    list-style: none;
+}
+
+#sec-intro ul li::before{
+    content: '\2794\ ';
+    color:mediumblue;
+    font-weight: bold;
+}
+
+/* TRABALHANDO COM DIVS */
+
+.box-principal {
+    color: white;
+    background-color: green;
+    width: 300px;
+    height: 50x;
+    border-radius: 5px;
+    text-align: center;
+    padding: 48px 0;
+    font-size: 25px;
+}
+
+/*ALINHAMENTO DE DIVS*/
+
+.alinhamento-box{
+    float: left;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px
+
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    width: 150px;
+    height: 100px;
+}
+
+.box1{
+    background-color: crimson;
+}
+
+.box2{
+    background-color: darkorange;
+}
+
+.box3{
+    background-color: purple;
+}
+
+.box4{
+    background-color: rgb(20, 220, 103);
+}
+
+.box5{
+    background-color: rgb(247, 0, 255);
+}
+
+.box6{
+    background-color: rgb(98, 1, 255);
+}
+
+/* CORES E GRADIENTES */
+
+.color-box{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.color1 { background: radial-gradient(red, yellow); }
+.color2 { background: linear-gradient(90deg, #1b1678 0%, #ba259a 50%, #589d13 100%); }
+.color3 { background: linear-gradient(to bottom, #11772e 0%, #7e2167 50%, #b5c6d0 100%); color: black; }
+.color4 { background: linear-gradient(to right, #7f5c15, #d8e1e7, #b5c6d0, #529f0f); color: black; }
+.color5 { background: linear-gradient(to right, red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%); }
+
+/* OUTRAS PROPRIEDADES */
+
+.extra-box{
+    float: left;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px
+}
+
+.border-box, .hover-box, .float-box{
+    width: 200px;
+    height: 100px;
+    background-color: #ba259a;
+}
+
+.footer{
+     background-color: rgb(109, 109, 109);
+     text-align: center;
+}
+
+
